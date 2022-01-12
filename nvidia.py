@@ -6,8 +6,8 @@ from scipy.stats import norm
 
 # Settings for Monte Carlo asset data, how long, and how many forecasts
 ticker = 'Stock Price'  # ticker
-t_intervals = 30  # time steps forecasted into future
-iterations = 5  # amount of simulations
+t_intervals = 50  # time steps forecasted into future
+iterations = 35  # amount of simulations
 file_name = 'NVDA Historical Data.csv'
 
 # Acquiring data
@@ -52,4 +52,4 @@ plt.plot(price_list)
 plt.title("Nvidia Simulation")
 plt.xlabel("Future Timesteps")
 plt.ylabel("Equity Price")
-# plt.show()
+plt.show()

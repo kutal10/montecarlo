@@ -1,6 +1,25 @@
 # Monte Carlo Simulation
 
-Monte Carlo simulations are a powerful in numerous fields, including operations research, game theory, physics, mathematics, actuarial sciences, finance, among others. It is a technique used to measure risk and uncertainty when making a decision. To put it simple: a Monte Carlo simulation runs an enormous number of statistical experiments with random numbers generated from an underlying distribution based on a given time series. Brownian motion, or random walk, is the main driver for forecasting the future price.
+Monte Carlo simulations are a powerful method in numerous fields, including operations research, game theory, physics, mathematics, actuarial sciences, finance, among others. It is a technique used to measure risk and uncertainty when making a decision. To put it simple: a Monte Carlo simulation runs an enormous number of statistical experiments with random numbers generated from an underlying distribution based on a given time series. Brownian motion, or random walk, is the main driver for forecasting the future price.
+
+## Output
+
+<p align="center">
+  <img src="https://i.imgur.com/VnCdhdf.png" width =800/>
+    <em>5 Iterations</em>
+
+</p>  
+<br />
+<p align="center">
+  <img src="https://i.imgur.com/XG0SEOL.png" width =800/>
+    <em>25 Iterations</em>
+</p>  
+<br />
+<p align="center">
+  <img src="https://i.imgur.com/aiseXIw.png" width =800/>
+    <em>35 Iterations and 50 time intervals</em >
+
+</p>  
 
 
 ## Method
