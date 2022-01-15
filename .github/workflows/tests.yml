@@ -1,0 +1,11 @@
+name: Python CI
+on: [push]
+
+jobs:
+  check-raytracer-core-functionality-is-correct:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: run unit tests
+        run: |
+          py -m unittest nvidia_test
