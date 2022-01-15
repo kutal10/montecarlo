@@ -8,4 +8,4 @@ jobs:
       - uses: actions/checkout@master
       - name: run unit tests
         run: |
-          py -m unittest nvidia_test
+          python -m unittest nvidia_test
